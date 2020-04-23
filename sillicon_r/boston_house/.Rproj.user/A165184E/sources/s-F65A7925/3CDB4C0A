@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587552311270.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3512846696",
+    "id" : "3CDB4C0A",
+    "lastKnownWriteTime" : 1587553023,
+    "last_content_update" : 1587553023137,
+    "path" : "C:/Users/jinyoung/Pictures/r/r_training/boston_house/boston_house.R",
+    "project_path" : "boston_house.R",
+    "properties" : {
+        "cursorPosition" : "9,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
