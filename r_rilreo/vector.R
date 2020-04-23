@@ -46,3 +46,32 @@ c('A', 10, FALSE)
 # 3. Vector 데이터 유형의 우선순위 ----
 # Character > Numeric > Logical 
 c('A', 10, FALSE)
+
+# 4. Vector의 Index ----
+# Vector의 첫 번째 element의 위치는 1이다.
+
+# 5. Vector의 개수 (element의 개수) = Vector의 길이 ----
+# length(vector)
+
+age <- c(10, 20, 15, 60, 30)
+length(age)
+
+# 6. Vector의 Slicing ----
+# vector[index]
+age[1]
+age[2:3]
+age[1, 4, 5] # error
+age[c(1, 4, 5)]
+age[seq(from = 1, to = 5, by = 2)] # 이거보다
+age[seq(from = 1, to = length(age), by = 2)] # 이걸 추천
+
+# 7. Vector의 연산 ----
+age1 <- c(10, 20, 15)
+age2 <- c(30, 40, 50)
+age3 <- age1 + age2 
+age3
+age4 <- c(30, 40, 50, 10, 20, 30)
+age5 <-  age1 + age4
+
+age6 <- c(30, 40, 50, 10, 20)
+age7 <- age1 + age6
