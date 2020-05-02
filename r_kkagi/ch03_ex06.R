@@ -116,3 +116,6 @@ tapply(DF$salary, DF$sex, sd, na.rm = T)
 
 tapply(DF$salary, DF$sex, range, na.rm = T)
 
+# 월급이 가장 적은 집단 구하기
+w <- which(DF$salary == 1782)
+DF[w,]
