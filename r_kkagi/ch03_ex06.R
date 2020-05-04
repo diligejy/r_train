@@ -38,8 +38,17 @@ Salary <- list(평균월급 = Mean, 중앙값월급 = Mid, 월급범위 = Range,
 Salary
 
 
+# 성별 salary 평균 구하기
 temp <- tapply(DF$salary, DF$sex, mean, na.rm = T)
 temp
+
+# 표준화 시키기
+Scale <- scale(DF$salary)
+head(Scale, 10)
+
+# DF객체에 추가합니다.
+DF <- cbind(DF, scale = Scale)
+str(DF)
 
 # 2019년 데이터로 테스트
 DF <- read.csv('C:/Users/jinyoung/Pictures/example/ch03_ex06.csv', stringsAsFactors = F, na = '-', header = T)
