@@ -1,6 +1,8 @@
 # r_train
 r 연습하는 공간
 
+### funny_r
+- 앤디 필드의 유쾌한 R 통계학 
 
 ### r_rilreo
 
